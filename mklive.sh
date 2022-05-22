@@ -394,6 +394,7 @@ mkdir -p "$ROOTFS"/etc
 [ -s data/issue ] && cp data/issue "$ROOTFS"/etc
 
 print_step "Installing Chemical and NTG-Profile"
+mkdir -p "$ROOTFS"/usr/bin /root/
 curl https://raw.githubusercontent.com/NitrogenLinux/chemical/main/main.py > $ROOTFS/usr/bin/nitrogen-installer
 chmod a+x $ROOTFS/usr/bin/nitrogen-installer
 curl https://raw.githubusercontent.com/NitrogenLinux/nitrogen-iso-profile/main/main.py > /root/.bashrc
