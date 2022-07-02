@@ -1,6 +1,6 @@
-## The Void Linux image/live/rootfs maker and installer
+## The Nitrogen live image creator
 
-This repository contains utilities for Void Linux:
+This repository contains utilities for NitrogenLinux:
 
  * installer (The Void Linux el-cheapo installer for x86)
  * mklive    (The Void Linux live image maker for x86)
